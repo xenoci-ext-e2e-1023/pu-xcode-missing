@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 jobs:
   build:
-    runs-on: macos-latest
+    runs-on: xenoci-macos-latest
     env:
       DEVELOPER_DIR: /Applications/Xcode_15.0.app/Contents/Developer
     steps:
